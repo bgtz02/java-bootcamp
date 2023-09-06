@@ -59,3 +59,7 @@ console.log(typeof null);
 let age = 30;
 age = 31;
 
+const birthYear = 2002;
+birthYear = 2001;
+
+const job;
