@@ -56,11 +56,23 @@ console.log(typeof null);
 */
 
 //Mutate a Variable or declare an empty variable
-let age = 30;
-age = 31;
+//let age = 30;
+//age can later than be changed or mutate
+//age = 31;
 
-const birthYear = 2002;
-birthYear = 2001;
+//const birthYear = 2002;
+// birthYear = 2001;
 
-const job;
-add
+// const job;
+//var job = 'programmer';
+//job = 'proffesor';
+/*
+lastName = 'Texas';
+console.log(lastName);
+*/
+
+
+const ageJonas = 2037 - 1991;
+const ageSarah = 2037 - 2018;
+
+console.log(ageJonas, ageSarah);
