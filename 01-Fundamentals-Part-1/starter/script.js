@@ -107,15 +107,34 @@ console.log(lastName);
 
 // console.log(now - 1991 > now - 2018);
 
-const now = 2037;
-const ageJonas = now - 1991;
-const ageSarah = now - 2018;
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
 
-console.log(now - 1991 > now - 2018);
+// console.log(now - 1991 > now - 2018);
 
-let x, y;
-x = y = 25 - 10 - 5;
-console.log(x, y);
+// let x, y;
+// x = y = 25 - 10 - 5;
+// console.log(x, y);
 
-const averageAge = (ageJonas + ageSarah) / 2
-console.log(ageJonas, ageSarah, averageAge);
+// const averageAge = (ageJonas + ageSarah) / 2
+// console.log(ageJonas, ageSarah, averageAge);
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!'
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName} a ${year - birthYear} year old ${job}! `;
+console.log(jonasNew);
+
+console.log(`Just a Stirng \n\
+mulitple \n\
+lines`);
+
+console.log(`string
+multiple
+lines`);
