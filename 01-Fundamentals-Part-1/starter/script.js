@@ -124,17 +124,18 @@ const firstName = 'Jonas';
 const job = 'teacher';
 const birthYear = 1991;
 const year = 2037;
-
+//old way
 const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!'
 console.log(jonas);
-
+//new way
 const jonasNew = `I'm ${firstName} a ${year - birthYear} year old ${job}! `;
 console.log(jonasNew);
 
+//old way 
 console.log(`Just a Stirng \n\
 mulitple \n\
 lines`);
-
+//new way
 console.log(`string
 multiple
 lines`);
