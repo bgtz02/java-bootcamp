@@ -181,7 +181,7 @@ let n = '1' + 1; //will not be 2 will be 11
 n = n - 1;
 console.log(n);
 */
-
+/*
 // 5 falsy values 0, " ", undefined, null, NaN
 console.log(Boolean(0));
 console.log(Boolean(undefined));
@@ -201,4 +201,20 @@ if (height) {
     console.log(`Hight is defined`)
 } else {
     console.log(`Height is Undefined`)
+}
+*/
+const age = 18;
+if (age === 18) console.log(`you are an adult (strict)`);
+
+if (age == 18) console.log(`you are an adult (loose)`);
+
+
+const favoriteNumber = Number(prompt("What is your Favorite Number"))
+console.log(favoriteNumber);
+console.log(typeof favoriteNumber);
+
+if (favoriteNumber === 23) {
+    console.log(`what an amazing number`);
+} else {
+
 }
