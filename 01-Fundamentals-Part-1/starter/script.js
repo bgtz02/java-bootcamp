@@ -215,6 +215,13 @@ console.log(typeof favoriteNumber);
 
 if (favoriteNumber === 23) {
     console.log(`what an amazing number`);
-} else {
-
+} else if (favoriteNumber === 7) {
+    console.log(`7 is a cool number`);
+} else if (favoriteNumber === 9) {
+    console.log(`number is 9`);
 }
+else {
+    console.log(`Number is not 23 or 7 or 9`);
+}
+
+if (favoriteNumber !== 23) console.log(`why not 23`);
