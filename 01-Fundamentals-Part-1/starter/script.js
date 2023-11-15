@@ -291,3 +291,14 @@ if (day === 'monday') {
     console.log(`${day} is not a real day`);
 }
 */
+
+3 + 4
+1991
+true && false && !false
+// ^ expresion
+if (23 > 10) {
+    const str = `23 is bigger`;
+}
+//^ statement
+
+console.log(`IM ${2037 - 1991} years old`);
