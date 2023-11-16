@@ -26,9 +26,9 @@ function logger() {
 logger();
 //^ Invokeing/Calling/running the Function = using the function
 
-function fuirtProcessor(apples, oranges) {
+function fruitProcessor(apples, oranges) {
     console.log(apples, oranges);
     const juice = `juice with ${apples} apples and ${oranges} oranges.`;
     return juice;
 }
-fuirtProcessor(3, 5);
+fruitProcessor(3, 5);
