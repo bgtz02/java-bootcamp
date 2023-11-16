@@ -16,3 +16,19 @@ private, Interface, and if are restricted words
 // const private = 34;
 // const if = 23;
 
+//Section 3 #33
+//function can hold one or more complete lines of codes
+function logger() {
+    console.log(`My name is Brando`);
+    console.log(`Success`);
+}
+//Code that is inside the curly braces is known as a Function Buddy
+logger();
+//^ Invokeing/Calling/running the Function = using the function
+
+function fuirtProcessor(apples, oranges) {
+    console.log(apples, oranges);
+    const juice = `juice with ${apples} apples and ${oranges} oranges.`;
+    return juice;
+}
+fuirtProcessor(3, 5);
