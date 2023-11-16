@@ -131,7 +131,7 @@ console.log(jonas);
 const jonasNew = `I'm ${firstName} a ${year - birthYear} year old ${job}! `;
 console.log(jonasNew);
 
-//old way 
+//old way
 console.log(`Just a Stirng \n\
 mulitple \n\
 lines`);
@@ -177,7 +177,7 @@ console.log('I am ' + 23 + ' Years old');
 console.log('23' - '10' - 3);
 console.log('23' / '2');
 
-let n = '1' + 1; //will not be 2 will be 11 
+let n = '1' + 1; //will not be 2 will be 11
 n = n - 1;
 console.log(n);
 */
@@ -254,28 +254,7 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 /*
 const day = 'sunday';
 
-switch (day) {
-    case 'monday': // day === monday
-        console.log(`Plan course structure`);
-        console.log(`Go to Coding Meetup`);
-        break;
-    case 'tuesday':
-        console.log(`Prepare Theory videos`);
-        break;
-    case 'wednesday':
-    case 'thursday':
-        console.log(`Write code examples`);
-        break;
-    case 'friday':
-        console.log(`Record videos`);
-        break;
-    case 'saturday':
-    case 'sunday':
-        console.log(`Enjoy the weekend`);
-        break;
-    default:
-        console.log(`Not a Valid Day`);
-}
+
 
 if (day === 'monday') {
     console.log(`It is monday`);
@@ -292,7 +271,7 @@ if (day === 'monday') {
 }
 */
 /*
-3 + 4c 
+3 + 4c
 1991
 true && false && !false
 // ^ expresion
@@ -305,7 +284,7 @@ console.log(`IM ${2037 - 1991} years old`);
 */
 /*
 const age = 23;
-// age >= 18 ? console.log(`I like to drink wine`) : 
+// age >= 18 ? console.log(`I like to drink wine`) :
 // console.log(`I like to drink water`);
 
 const drink = age >= 18 ? `Wine` : `Water`;
@@ -331,7 +310,7 @@ you should leave a tip of ${tip = bill * tip}
 and total is ${bill + tip}`);
 */
 
-const bill = 40;
-const tip = bill <= 300 && bill > + 50 ? bill * 0.15 : bill * 0.2;
-console.log(`the Bill is ${bill} with tip is ${tip} total bill is ${bill + tip}`);
+// const bill = 40;
+// const tip = bill <= 300 && bill > + 50 ? bill * 0.15 : bill * 0.2;
+// console.log(`the Bill is ${bill} with tip is ${tip} total bill is ${bill + tip}`);
 
