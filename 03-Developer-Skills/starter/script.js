@@ -10,6 +10,7 @@ if (hasDriversLicence) console.log(`I Can Drive`);
 /*
 Strict mode will reserve some words for future use in
 JavaScript and will be unusable while in Strictmode
+private, Interface, and if are restricted words
 */
 
 // const private = 34;
