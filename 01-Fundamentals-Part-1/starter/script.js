@@ -321,6 +321,7 @@ console.log(drink2);
 
 console.log(`I like to drink ${age >= 18 ? `Wine` : `Water`}`);
 */
+/*
 const bill = 275;
 
 let tip;
@@ -328,3 +329,9 @@ console.log(`The bill is ${bill}
 The tip percent should be ${bill <= 300 ? tip = .15 : tip = .20}
 you should leave a tip of ${tip = bill * tip}
 and total is ${bill + tip}`);
+*/
+
+const bill = 40;
+const tip = bill <= 300 && bill > + 50 ? bill * 0.15 : bill * 0.2;
+console.log(`the Bill is ${bill} with tip is ${tip} total bill is ${bill + tip}`);
+
