@@ -7,5 +7,10 @@ const passTest = true;
 if (passTest) hasDriversLicence = true;
 if (hasDriversLicence) console.log(`I Can Drive`);
 
+/*
+Strict mode will reserve some words for future use in
+JavaScript and will be unusable while in Strictmode
+*/
+
 // const private = 34;
-const if = 23;
+// const if = 23;
