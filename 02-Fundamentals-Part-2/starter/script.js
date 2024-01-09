@@ -24,7 +24,7 @@ function logger() {
 }
 //Code that is inside the curly braces is known as a Function Buddy
 logger();
-//^ Invokeing/Calling/running the Function = using the function
+//^ Invoking/Calling/running the Function = using the function
 
 function fruitProcessor(apples, oranges) {
     console.log(apples, oranges);
